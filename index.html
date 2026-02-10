@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryunosuke Takada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="lang-toggle" class="lang-btn">English</button>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="avatar-placeholder">RT</div>
+                <h1 class="name">Ryunosuke Takada</h1>
+                <p class="role" data-key="role">Musician / Researcher / Instrument Designer</p>
+                
+                <div class="social-links">
+                    <a href="https://www.instagram.com/ryu_percussion/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:your-email@example.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            
+            <section id="about">
+                <h2 data-key="about_title">About Me</h2>
+                <p data-key="about_text_1"></p>
+                <ul class="info-list">
+                    <li><strong data-key="age_label">年齢:</strong> <span data-key="age_val">18歳</span></li>
+                    <li><strong data-key="dept_label">学部:</strong> <span data-key="dept_val">経済学部1年</span></li>
+                </ul>
+                <div class="tags" id="interests-tags">
+                    </div>
+            </section>
+
+            <section id="career">
+                <h2 data-key="career_title">Career</h2>
+                <ul class="career-list">
+                    <li><span class="year">2025</span> <span data-key="career_1">RYU Percussion 代表</span></li>
+                    <li><span class="year">2026</span> <span data-key="career_2">steAm Inc.</span></li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2 data-key="skills_title">Skills</h2>
+                <div class="skill-block">
+                    <h3 data-key="skill_math_title">◾️数学 & 物理学 (Mathematics & Physics)</h3>
+                    <p data-key="skill_math_desc"></p>
+                </div>
+                <div class="skill-block">
+                    <h3 data-key="skill_music_title">◾️音楽 & 作曲 (Music & Composition)</h3>
+                    <p data-key="skill_music_desc"></p>
+                </div>
+                <div class="skill-block">
+                    <h3 data-key="skill_prog_title">◾️プログラミング & AI (Programming & AI)</h3>
+                    <p data-key="skill_prog_desc"></p>
+                </div>
+                <div class="skill-block">
+                    <h3 data-key="skill_design_title">◾️デザイン & コミュニケーション (Design & Communication)</h3>
+                    <p data-key="skill_design_desc"></p>
+                </div>
+                <div class="skill-block">
+                    <h3 data-key="skill_lang_title">◾️言語 (Languages)</h3>
+                    <p data-key="skill_lang_desc"></p>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 data-key="projects_title">Projects</h2>
+                
+                <div class="project-item">
+                    <h3 data-key="proj_inst_title">◾️楽器デザイン (Instruments design)</h3>
+                    <p><strong>RYU Percussion</strong></p>
+                    <p data-key="proj_inst_desc"></p>
+                </div>
+
+                <div class="project-item">
+                    <h3 data-key="proj_paper_title">◾️研究論文 & 執筆 (Publications & Writing)</h3>
+                    <p data-key="proj_paper_desc"></p>
+                </div>
+
+                <div class="project-item">
+                    <h3 data-key="proj_dev_title">◾️開発 (Software & Systems)</h3>
+                    <p data-key="proj_dev_desc"></p>
+                </div>
+
+                <div class="project-item">
+                    <h3 data-key="proj_art_title">◾️音楽活動、作品 (Art Works & Performances)</h3>
+                    <p data-key="proj_art_desc"></p>
+                </div>
+
+                <div class="project-item">
+                    <h3 data-key="proj_edu_title">◾️教育 (Education)</h3>
+                    <p data-key="proj_edu_desc"></p>
+                </div>
+            </section>
+
+            <section id="research">
+                <h2 data-key="research_title">Core Research Themes</h2>
+                <ul class="research-list">
+                    <li data-key="res_1"></li>
+                    <li data-key="res_2"></li>
+                    <li data-key="res_3"></li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2 data-key="contact_title">Contact & Collaboration</h2>
+                <p data-key="contact_desc"></p>
+                <p><a href="https://www.instagram.com/ryu_percussion/" target="_blank">Instagram (@ryu_percussion)</a></p>
+            </section>
+
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2026 Ryunosuke Takada</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
