@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 const content = \{\
+    ja: \{\
+        role: "\uc0\u38899 \u27005 \u23478  / \u30740 \u31350 \u32773  / \u27005 \u22120 \u12487 \u12470 \u12452 \u12490 \u12540 ",\
+        about_title: "About Me",\
+        about_text_1: "2007\uc0\u24180 \u29983 \u12414 \u12428 \u12290 \u24188 \u23569 \u26399 \u12424 \u12426 \u25968 \u23398 \u21450 \u12403 \u38899 \u27005 \u65288 \u12500 \u12450 \u12494 \u12289 \u25171 \u27005 \u22120 \u12289 \u20316 \u32232 \u26354 \u65289 \u12395 \u24375 \u12356 \u33288 \u21619 \u12434 \u25265 \u12365 \u12289 \u29694 \u22312 \u12399 \u20001 \u32773 \u12398 \u38306 \u20418 \u24615 \u12395 \u30528 \u30446 \u12375 \u12289 \u25968 \u30340 \u12450 \u12523 \u12468 \u12522 \u12474 \u12512 \u12395 \u12424 \u12427 \u20316 \u26354 \u12420 \u12289 \u25968 \u23398 \u12408 \u12398 \u32884 \u35226 \u30340 \u12450 \u12503 \u12525 \u12540 \u12481 \u12398 \u23566 \u20837 \u12394 \u12393 \u12289 \u20001 \u32773 \u12434 \u32113 \u21512 \u12375 \u12383 \u12452 \u12531 \u12479 \u12521 \u12463 \u12486 \u12451 \u12502 \u12394 \u34920 \u29694 \u26041 \u27861 \u12434 \u36861 \u27714 \u12290 \u12414 \u12383 \u12289 \u33258 \u36523 \u12398 \u30740 \u31350 \u30693 \u35211 \u12434 \u27005 \u22120 \u35373 \u35336 \u12395 \u24540 \u29992 \u12375 \u12289 \u12487 \u12470 \u12452 \u12531 \u12289 \u12502 \u12521 \u12531 \u12487 \u12451 \u12531 \u12464 \u12289 \u28436 \u22863 \u12414 \u12391 \u12434 \u19968 \u36011 \u12375 \u12390 \u34892 \u12358 \u65288 \u12452 \u12479 \u12522 \u12450 \u22269 \u38555 \u25171 \u27005 \u22120 \u12467 \u12531 \u12463 \u12540 \u12523 \u26368 \u39640 \u20301 \u65289 \u12290 \u12381 \u12375 \u12390 \u12289 \u33258 \u36523 \u12398 \u32076 \u39443 \u12363 \u12425 \u26085 \u26412 \u12395 \u12362 \u12369 \u12427 \u12462 \u12501 \u12486 \u12483 \u12489 \u25945 \u32946 \u12362 \u12424 \u12403 STEAM\u25945 \u32946 \u12395 \u12418 \u27880 \u30446 \u12375 \u12289 \u23398 \u21839 \u12420 \u33464 \u34899 \u12398 \u26528 \u12395 \u12392 \u12425 \u12431 \u12428 \u12394 \u12356 \u22810 \u27096 \u12391 \u21109 \u36896 \u30340 \u12394 \u25945 \u32946 \u20687 \u12434 \u27169 \u32034 \u12290 \u38306 \u24515 \u38936 \u22495 \u12399 \u12289 \u29289 \u29702 \u23398 \u12289 \u12488 \u12509 \u12525 \u12472 \u12540 \u12289 \u27005 \u22120 \u12487 \u12470 \u12452 \u12531 \u12289 AI\u12289 \u12503 \u12525 \u12464 \u12521 \u12511 \u12531 \u12464 \u12363 \u12425 \u12289 \u27833 \u32117 \u12289 \u12487 \u12470 \u12452 \u12531 \u12289 \u20467 \u21477 \u12289 \u12523 \u12540 \u12499 \u12483 \u12463 \u12461 \u12517 \u12540 \u12502 \u12394 \u12393 \u12290 \u23398 \u21839 \u12539 \u33464 \u34899 \u12539 \u12418 \u12398 \u12389 \u12367 \u12426 \u12398 \u22659 \u30028 \u12434 \u36234 \u12360 \u12289 \u25968 \u29702 \u30340 \u24605 \u32771 \u12392 \u24863 \u24615 \u12398 \u35519 \u21644 \u12363 \u12425 \u12289 \u26032 \u12383 \u12394 \u20385 \u20516 \u12392 \u34920 \u29694 \u12398 \u12363 \u12383 \u12385 \u12434 \u21109 \u36896 \u12377 \u12427 \u12371 \u12392 \u12364 \u33288 \u21619 \u12398 \u20013 \u24515 \u12290 ",\
+        age_label: "\uc0\u24180 \u40802 :",\
+        age_val: "18\uc0\u27507 ",\
+        dept_label: "\uc0\u23398 \u37096 :",\
+        dept_val: "\uc0\u32076 \u28168 \u23398 \u37096 1\u24180 ",\
+        career_title: "Career",\
+        career_1: "RYU Percussion \uc0\u20195 \u34920 ",\
+        career_2: "steAm Inc.",\
+        skills_title: "Skills",\
+        skill_math_title: "\uc0\u9726 \u65039 \u25968 \u23398  & \u29289 \u29702 \u23398  (Mathematics & Physics)",\
+        skill_math_desc: "\uc0\u30740 \u31350 \u22522 \u30436 : \u35079 \u32032 \u35299 \u26512 \u12289 \u12488 \u12509 \u12525 \u12472 \u12540 \u12289 \u35299 \u26512 \u30340 \u25968 \u35542 \u65288 \u950 \u38306 \u25968 \u65289 <br>\u24540 \u29992 \u12514 \u12487 \u12523 : \u30906 \u29575 \u36942 \u31243 \u65288 \u12510 \u12523 \u12467 \u12501 \u36899 \u37782 \u12289 \u28857 \u36942 \u31243 \u65289 \u12289 \u32676 \u35542 \u12289 \u38750 \u12518 \u12540 \u12463 \u12522 \u12483 \u12489 \u24190 \u20309 \u23398 <br>\u29289 \u29702 \u12539 \u38899 \u38911 : \u38899 \u38911 \u29289 \u29702 \u23398 \u12289 \u25391 \u21205 \u12539 \u27874 \u21205 \u35542 \u12289 \u12522 \u12474 \u12512 \u29983 \u25104 \u12398 \u25968 \u29702 \u35299 \u26512 ",\
+        skill_music_title: "\uc0\u9726 \u65039 \u38899 \u27005  & \u20316 \u26354  (Music & Composition)",\
+        skill_music_desc: "\uc0\u28436 \u22863 : \u12500 \u12450 \u12494 \u12289 \u12473 \u12493 \u12450 \u12489 \u12521 \u12512 \u12477 \u12525 \u12289 \u12497 \u12540 \u12459 \u12483 \u12471 \u12519 \u12531 <br>\u29702 \u35542 \u12539 \u20316 \u26354 : \u25968 \u29702 \u30340 \u20316 \u26354 \u65288 \u30906 \u29575 \u12514 \u12487 \u12523 \u12539 \u12510 \u12523 \u12467 \u12501 \u36899 \u37782 \u12539 \u12463 \u12475 \u12490 \u12461 \u12473 \u30340 \u25163 \u27861 \u12539 \u38899 \u38911 \u30340 \u22810 \u20803 \u27083 \u36896 \u12394 \u12393 \u65289 \u12289 \u32232 \u26354 \u12289 \u12469 \u12454 \u12531 \u12489 \u12487 \u12470 \u12452 \u12531 \u12289 \u12509 \u12522 \u12522 \u12474 \u12512 <br>\u24540 \u29992 : \u27005 \u22120 \u35373 \u35336 \u12289 \u38899 \u38911 \u35299 \u26512 \u12289 \u29289 \u29702 \u38899 \u38911 \u12514 \u12487 \u12522 \u12531 \u12464 \u12289 \u38899 \u38911 \u24037 \u23398 ",\
+        skill_prog_title: "\uc0\u9726 \u65039 \u12503 \u12525 \u12464 \u12521 \u12511 \u12531 \u12464  & AI (Programming & AI)",\
+        skill_prog_desc: "\uc0\u20351 \u29992 \u35328 \u35486 : Python<br>\u20449 \u21495 \u20966 \u29702 : \u12487 \u12472 \u12479 \u12523 \u20449 \u21495 \u20966 \u29702  (DSP)\u12289 \u39640 \u36895 \u12501 \u12540 \u12522 \u12456 \u22793 \u25563  (FFT)\u12289 \u12497 \u12527 \u12540 \u12473 \u12506 \u12463 \u12488 \u12523 \u23494 \u24230  (PSD)\u12289 \u12454 \u12455 \u12540 \u12502 \u12524 \u12483 \u12488 \u22793 \u25563 \u12289 \u12476 \u12525 \u28857 \u20998 \u24067 \u35299 \u26512 <br>AI\u12539 \u27231 \u26800 \u23398 \u32722 : \u28145 \u23652 \u23398 \u32722 \u65288 RNN, VAE, GANs\u65289 \u12395 \u12424 \u12427 \u20316 \u26354 \u12514 \u12487 \u12523 \u12398 \u27083 \u31689 <br>\u12471 \u12473 \u12486 \u12512 \u38283 \u30330 : \u30906 \u29575 \u30340 \u20316 \u26354 \u12471 \u12473 \u12486 \u12512 \u12289 \u22793 \u25293 \u23376 \u29983 \u25104 \u12450 \u12523 \u12468 \u12522 \u12474 \u12512 \u12289 \u38899 \u38911 \u12487 \u12540 \u12479 \u35299 \u26512 \u12484 \u12540 \u12523 \u12398 \u23455 \u35013 ",\
+        skill_design_title: "\uc0\u9726 \u65039 \u12487 \u12470 \u12452 \u12531  & \u12467 \u12511 \u12517 \u12491 \u12465 \u12540 \u12471 \u12519 \u12531  (Design & Communication)",\
+        skill_design_desc: "\uc0\u12499 \u12472 \u12517 \u12450 \u12523 : \u27833 \u32117 \u12289 \u12464 \u12521 \u12501 \u12451 \u12483 \u12463 \u12487 \u12470 \u12452 \u12531 \u12289 \u25968 \u23398 \u30340 \u12539 \u38899 \u38911 \u30340 \u12487 \u12540 \u12479 \u12398 \u12499 \u12472 \u12517 \u12450 \u12521 \u12452 \u12476 \u12540 \u12471 \u12519 \u12531 <br>\u24540 \u29992 : \u27005 \u22120 \u12487 \u12470 \u12452 \u12531 \u12289 \u38899 \u38911 \u12452 \u12531 \u12473 \u12479 \u12524 \u12540 \u12471 \u12519 \u12531 ",\
+        skill_lang_title: "\uc0\u9726 \u65039 \u35328 \u35486  (Languages)",\
+        skill_lang_desc: "\uc0\u12489 \u12452 \u12484 \u35486 \u12289 \u12501 \u12521 \u12531 \u12473 \u35486 \u12289 \u33521 \u35486 \u12289 \u26085 \u26412 \u35486 \u12289 \u12452 \u12479 \u12522 \u12450 \u35486 \u12289 \u12473 \u12506 \u12452 \u12531 \u35486 ",\
+        projects_title: "Projects",\
+        proj_inst_title: "\uc0\u9726 \u65039 \u27005 \u22120 \u12487 \u12470 \u12452 \u12531  (Instruments design)",\
+        proj_inst_desc: "\uc0\u27010 \u35201 : \u38899 \u38911 \u29289 \u29702 \u23398 \u12398 \u30693 \u35211 \u12395 \u22522 \u12389 \u12367 \u27005 \u22120 \u35373 \u35336 \u12290 \u35373 \u35336 \u12289 \u35069 \u20316 \u12289 \u28436 \u22863 \u12289 \u12502 \u12521 \u12531 \u12487 \u12451 \u12531 \u12464 \u12290 <br>\u20027 \u12394 \u35373 \u35336 : Snare Drum, Snare Stand, Percussion Stands, Percussion Mallets\'85",\
+        proj_paper_title: "\uc0\u9726 \u65039 \u30740 \u31350 \u35542 \u25991  & \u22519 \u31558  (Publications & Writing)",\
+        proj_paper_desc: "[\uc0\u30740 \u31350 \u35542 \u25991 ] \u12522 \u12540 \u12510 \u12531 \u12476 \u12540 \u12479 \u38646 \u28857 \u12398 \u22810 \u35282 \u30340 \u12477 \u12491 \u12501 \u12451 \u12465 \u12540 \u12471 \u12519 \u12531 \u65306 \u30456 \u35036 \u30340 \u38899 \u38911 \u34920 \u29694 \u12395 \u12424 \u12427 \u25968 \u35542 \u30340 \u27083 \u36896 \u12398 \u30693 \u35226 \u30340 \u35299 \u26512  (2025)<br>\u27010 \u35201 : \u12476 \u12540 \u12479 \u38306 \u25968 \u12398 \u38646 \u28857 \u12434 \u12477 \u12491 \u12501 \u12451 \u12465 \u12540 \u12471 \u12519 \u12531 \u12375 \u12289 \u12381 \u12398 \u30693 \u35226 \u30340 \u26377 \u21177 \u24615 \u12434 \u35413 \u20385 \u12377 \u12427 \u35430 \u12415 \u12290 <br><br>[\u30740 \u31350 \u35542 \u25991 ] \u12473 \u12493 \u12450 \u12489 \u12521 \u12512 \u12398 \u27083 \u25104 \u35201 \u32032 \u12364 \u12381 \u12398 \u38899 \u38911 \u29305 \u24615 \u12395 \u19982 \u12360 \u12427 \u29289 \u29702 \u30340 \u24433 \u38911 \u12398 \u23450 \u37327 \u30340 \u35413 \u20385  (2025)<br>\u27010 \u35201 : \u12473 \u12493 \u12450 \u12489 \u12521 \u12512 \u12398 \u20027 \u35201 \u35201 \u32032 \u12364 \u12381 \u12398 \u12486 \u12451 \u12531 \u12496 \u12540 \u12395 \u19982 \u12360 \u12427 \u24433 \u38911 \u12434 \u23450 \u37327 \u21270 \u12290 \u27005 \u22120 \u35373 \u35336 \u29702 \u35542 \u12398 \u22522 \u30436 \u12290 ",\
+        proj_dev_title: "\uc0\u9726 \u65039 \u38283 \u30330  (Software & Systems)",\
+        proj_dev_desc: "Mathematical Composition System (2024)<br>\uc0\u27010 \u35201 : \u30906 \u29575 \u36942 \u31243 \u65288 \u12510 \u12523 \u12467 \u12501 \u36899 \u37782 \u31561 \u65289 \u21450 \u12403 \u32113 \u35336 \u30340 \u25163 \u27861 \u12434 \u29992 \u12356 \u12383 \u12522 \u12474 \u12512 \u12539 \u38899 \u38911 \u29983 \u25104 \u12471 \u12473 \u12486 \u12512 \u12290 <br>\u23455 \u35013 : Python\u12395 \u12390 \u23455 \u35013 \u12290 <br><br>\u38899 \u38911 \u20449 \u21495 \u20966 \u29702 \u12398 \u33258 \u21205 \u21487 \u35222 \u21270 \u12484 \u12540 \u12523  (\u20869 \u37096 \u12484 \u12540 \u12523 )<br>\u27010 \u35201 : FFT\u12289 PSD\u12289 \u12454 \u12455 \u12540 \u12502 \u12524 \u12483 \u12488 \u22793 \u25563 \u12394 \u12393 \u12289 \u38899 \u38911 \u12487 \u12540 \u12479 \u35299 \u26512 \u12398 \u32080 \u26524 \u12434 \u12496 \u12483 \u12481 \u20966 \u29702 \u12391 \u33258 \u21205 \u21487 \u35222 \u21270 \u12377 \u12427 \u12484 \u12540 \u12523 \u12290 \u30740 \u31350 \u12539 \u38283 \u30330 \u21177 \u29575 \u12398 \u21521 \u19978 \u12395 \u36002 \u29486 \u12290 ",\
+        proj_art_title: "\uc0\u9726 \u65039 \u38899 \u27005 \u27963 \u21205 \u12289 \u20316 \u21697  (Art Works & Performances)",\
+        proj_art_desc: "Snare Solo / Snare \'d7 Piano (Instagram)<br>\uc0\u27010 \u35201 : \u33258 \u20316 \u12473 \u12493 \u12450 \u12489 \u12521 \u12512 \u65288 RYU Percussion\u65289 \u12398 \u12477 \u12525 \u28436 \u22863 \u12362 \u12424 \u12403 \u12289 \u12473 \u12493 \u12450 \u12392 \u12500 \u12450 \u12494 \u12398 \u28436 \u22863 \u12290 <br><br>Solo Works<br>\u27010 \u35201 : \u12473 \u12493 \u12450 \u12489 \u12521 \u12512 \u12477 \u12525 \u12420 \u12473 \u12493 \u12450 \u12467 \u12531 \u12481 \u12455 \u12523 \u12488 \u12394 \u12393 \u12290 \u25968 \u29702 \u30340 \u25163 \u27861 \u12395 \u22522 \u12389 \u12367 \u20316 \u26354 \u12394 \u12393 \u12290 ",\
+        proj_edu_title: "\uc0\u9726 \u65039 \u25945 \u32946  (Education)",\
+        proj_edu_desc: "\uc0\u25968 \u23398 \u12289 \u38899 \u27005 \u12289 \u33464 \u34899 \u12289 \u12503 \u12525 \u12464 \u12521 \u12511 \u12531 \u12464 \u12394 \u12393 \u12373 \u12414 \u12374 \u12414 \u12394 \u20998 \u37326 \u12434 \u27178 \u26029 \u12377 \u12427 \u12289 \u32113 \u21512 \u30340 \u25945 \u32946 \u12514 \u12487 \u12523 \u12434 \u27083 \u24819 \u12290 <br>STEM\u25945 \u32946 \u12392 \u12462 \u12501 \u12486 \u12483 \u12489 \u25945 \u32946 \u12434 \u34701 \u21512 \u12373 \u12379 \u12383 \u22810 \u27096 \u12391 \u21109 \u36896 \u30340 \u12394 \u25945 \u32946 \u20687 \u12434 \u25552 \u26696 \u12290 ",\
+        research_title: "Core Research Themes",\
+        res_1: "<strong>\uc0\u9726 \u65039 \u35299 \u26512 \u30340 \u25968 \u35542 \u12398 \u12477 \u12491 \u12501 \u12451 \u12465 \u12540 \u12471 \u12519 \u12531 </strong>\u12522 \u12540 \u12510 \u12531 \u12476 \u12540 \u12479 \u38306 \u25968 \u12398 \u38646 \u28857 \u20998 \u24067 \u12420 \u32032 \u25968 \u20998 \u24067 \u12392 \u12356 \u12387 \u12383 \u25968 \u35542 \u30340 \u27083 \u36896 \u12392 \u12289 \u38899 \u38911 \u12497 \u12521 \u12513 \u12540 \u12479 \u65288 \u21608 \u27874 \u25968 \u12289 \u12522 \u12474 \u12512 \u12289 \u38899 \u33394 \u65289 \u12392 \u12398 \u27083 \u36896 \u30340 \u23550 \u24540 \u12434 \u30740 \u31350 \u12290 \u12477 \u12491 \u12501 \u12451 \u12465 \u12540 \u12471 \u12519 \u12531 \u12395 \u12424 \u12387 \u12390 \u12289 \u25968 \u29702 \u30340 \u27010 \u24565 \u12392 \u32884 \u35226 \u30340 \u24773 \u22577 \u12434 \u23550 \u24540 \u12373 \u12379 \u12289 \u25968 \u29702 \u27083 \u36896 \u12398 \u30693 \u35226 \u12395 \u26032 \u12383 \u12394 \u12450 \u12503 \u12525 \u12540 \u12481 \u12434 \u35211 \u20986 \u12377 \u12290 ",\
+        res_2: "<strong>\uc0\u9726 \u65039 \u12450 \u12523 \u12468 \u12522 \u12474 \u12511 \u12483 \u12463 \u20316 \u26354 \u12392 \u25968 \u29702 \u12514 \u12487 \u12523 </strong>\u12463 \u12475 \u12490 \u12461 \u12473 \u65288 Iannis Xenakis\u65289 \u12398 \u30906 \u29575 \u35542 \u30340 \u25163 \u27861 \u65288 Stochastic Music\u65289 \u12289 \u12510 \u12523 \u12467 \u12501 \u36899 \u37782 \u12289 \u32676 \u35542 \u12289 \u38750 \u12518 \u12540 \u12463 \u12522 \u12483 \u12489 \u24190 \u20309 \u23398 \u12394 \u12393 \u12398 \u25968 \u29702 \u12514 \u12487 \u12523 \u12434 \u29992 \u12356 \u12383 \u20316 \u26354 \u12450 \u12523 \u12468 \u12522 \u12474 \u12512 \u12434 \u27083 \u31689 \u12290 \u12509 \u12522 \u12522 \u12474 \u12512 \u12392 \u12381 \u12398 \u30693 \u35226 \u27083 \u36896 \u12398 \u23550 \u24540 \u12290 ",\
+        res_3: "<strong>\uc0\u9726 \u65039 \u38899 \u38911 \u29289 \u29702 \u23398 \u12392 \u27005 \u22120 \u35373 \u35336 \u12408 \u12398 \u24540 \u29992 </strong>\u12473 \u12493 \u12450 \u12489 \u12521 \u12512 \u31561 \u12398 \u25171 \u27005 \u22120 \u12364 \u30330 \u12377 \u12427 \u38899 \u38911 \u12398 \u29289 \u29702 \u30340 \u29305 \u24615 \u65288 \u25391 \u21205 \u12514 \u12540 \u12489 \u12289 \u28187 \u34928 \u29575 \u12289 \u21608 \u27874 \u25968 \u29305 \u24615 \u65289 \u12434 \u12289 \u23455 \u39443 \u12392 \u12471 \u12511 \u12517 \u12524 \u12540 \u12471 \u12519 \u12531 \u65288 \u29289 \u29702 \u38899 \u38911 \u12514 \u12487 \u12522 \u12531 \u12464 \u65289 \u12395 \u12424 \u12387 \u12390 \u23450 \u37327 \u30340 \u12539 \u25968 \u29702 \u30340 \u12395 \u35413 \u20385 \u12290 \u12371 \u12398 \u30693 \u35211 \u12434 \u27005 \u22120 \u35373 \u35336 \u12395 \u30452 \u25509 \u12501 \u12451 \u12540 \u12489 \u12496 \u12483 \u12463 \u12375 \u12289 \u38899 \u38911 \u29305 \u24615 \u12434 \u24847 \u22259 \u30340 \u12395 \u12487 \u12470 \u12452 \u12531 \u12290 ",\
+        contact_title: "Contact & Collaboration",\
+        contact_desc: "\uc0\u30740 \u31350 \u12395 \u38306 \u12377 \u12427 \u12372 \u36074 \u21839 \u12420 \u12372 \u25351 \u25688 \u12289 \u38899 \u27005 \u27963 \u21205 \u12394 \u12393 \u12395 \u12372 \u33288 \u21619 \u12364 \u12372 \u12374 \u12356 \u12414 \u12375 \u12383 \u12425 \u12289 \u19979 \u35352 SNS\u12424 \u12426 \u12362 \u27671 \u36605 \u12395 \u12372 \u36899 \u32097 \u12367 \u12384 \u12373 \u12356 \u12290 "\
+    \},\
+    en: \{\
+        role: "Musician / Researcher / Instrument Designer",\
+        about_title: "About Me",\
+        about_text_1: "Born in 2007. I have had a strong interest in mathematics and music (piano, percussion, composition) since childhood. Currently, I focus on the relationship between the two, pursuing interactive expressions that integrate them, such as composition using numerical algorithms and introducing auditory approaches to mathematics. I also apply my research findings to instrument design, handling everything from design and branding to performance consistently (Top Prize at the Italy International Percussion Competition). Based on my own experiences, I also focus on Gifted Education and STEAM Education in Japan, exploring a diverse and creative educational model that transcends the boundaries of academia and art. My areas of interest range from Physics, Topology, Instrument Design, AI, and Programming to Oil Painting, Design, Haiku, and Rubik's Cubes. My core interest lies in crossing the boundaries of academia, art, and craftsmanship to create new values and forms of expression through the harmony of mathematical thinking and sensibility.",\
+        age_label: "Age:",\
+        age_val: "18",\
+        dept_label: "Faculty:",\
+        dept_val: "1st Year, Faculty of Economics",\
+        career_title: "Career",\
+        career_1: "Representative, RYU Percussion",\
+        career_2: "steAm Inc.",\
+        skills_title: "Skills",\
+        skill_math_title: "\uc0\u9726 \u65039 Mathematics & Physics",\
+        skill_math_desc: "Research Basis: Complex Analysis, Topology, Analytic Number Theory (Zeta Function)<br>Applied Models: Stochastic Processes (Markov Chains, Point Processes), Group Theory, Non-Euclidean Geometry<br>Physics & Acoustics: Acoustic Physics, Oscillation & Wave Theory, Mathematical Analysis of Rhythm Generation",\
+        skill_music_title: "\uc0\u9726 \u65039 Music & Composition",\
+        skill_music_desc: "Performance: Piano, Snare Drum Solo, Percussion<br>Theory & Composition: Mathematical Composition (Stochastic Models, Markov Chains, Xenakian Methods, Acoustic Multivariate Structures), Arrangement, Sound Design, Polyrhythms<br>Application: Instrument Design, Acoustic Analysis, Physical Acoustic Modeling, Acoustical Engineering",\
+        skill_prog_title: "\uc0\u9726 \u65039 Programming & AI",\
+        skill_prog_desc: "Languages: Python<br>Signal Processing: DSP, FFT, PSD, Wavelet Transform, Zero-Point Distribution Analysis<br>AI & ML: Construction of Composition Models using Deep Learning (RNN, VAE, GANs)<br>System Development: Stochastic Composition Systems, Odd Meter Generation Algorithms, Implementation of Acoustic Data Analysis Tools",\
+        skill_design_title: "\uc0\u9726 \u65039 Design & Communication",\
+        skill_design_desc: "Visuals: Oil Painting, Graphic Design, Visualization of Mathematical/Acoustic Data<br>Application: Instrument Design, Sound Installations",\
+        skill_lang_title: "\uc0\u9726 \u65039 Languages",\
+        skill_lang_desc: "German, French, English, Japanese, Italian, Spanish",\
+        projects_title: "Projects",\
+        proj_inst_title: "\uc0\u9726 \u65039 Instrument Design",\
+        proj_inst_desc: "Overview: Instrument design based on findings in acoustic physics. Design, manufacturing, performance, and branding.<br>Main Designs: Snare Drum, Snare Stand, Percussion Stands, Percussion Mallets\'85",\
+        proj_paper_title: "\uc0\u9726 \u65039 Publications & Writing",\
+        proj_paper_desc: "[Paper] Multilateral Sonification of Riemann Zeta Zeros: Perceptual Analysis of Number-Theoretic Structures via Complementary Acoustic Representations (2025)<br>Overview: Sonification of Zeta function zeros and evaluation of their perceptual effectiveness.<br><br>[Paper] Quantitative Evaluation of the Physical Influence of Snare Drum Components on Acoustic Characteristics (2025)<br>Overview: Quantifying the impact of snare drum elements on timbre. Basis for instrument design theory.",\
+        proj_dev_title: "\uc0\u9726 \u65039 Development (Software & Systems)",\
+        proj_dev_desc: "Mathematical Composition System (2024)<br>Overview: Rhythm and sound generation system using stochastic processes (Markov Chains, etc.) and statistical methods.<br>Implementation: Python.<br><br>Automated Visualization Tool for Acoustic Signal Processing (Internal Tool)<br>Overview: Batch processing tool for automatic visualization of acoustic data analysis (FFT, PSD, Wavelet Transform). Contributes to research/dev efficiency.",\
+        proj_art_title: "\uc0\u9726 \u65039 Art Works & Performances",\
+        proj_art_desc: "Snare Solo / Snare \'d7 Piano (Instagram)<br>Overview: Solo performance of self-made snare drum (RYU Percussion) and performance with piano.<br><br>Solo Works<br>Overview: Snare drum solos, snare concertos, etc. Composition based on mathematical methods.",\
+        proj_edu_title: "\uc0\u9726 \u65039 Education",\
+        proj_edu_desc: "Envisioning an integrated educational model crossing mathematics, music, art, and programming.<br>Proposing a diverse and creative image of education fusing STEM and Gifted Education.",\
+        research_title: "Core Research Themes",\
+        res_1: "<strong>\uc0\u9726 \u65039 Sonification of Analytic Number Theory</strong>Researching the structural correspondence between number-theoretic structures (like Riemann Zeta zero distribution and prime distribution) and acoustic parameters (frequency, rhythm, timbre). Finding new approaches to perceiving mathematical structures via sonification.",\
+        res_2: "<strong>\uc0\u9726 \u65039 Algorithmic Composition & Mathematical Models</strong>Constructing composition algorithms using mathematical models such as Iannis Xenakis's Stochastic Music, Markov Chains, Group Theory, and Non-Euclidean Geometry. Correspondence between polyrhythms and perceptual structures.",\
+        res_3: "<strong>\uc0\u9726 \u65039 Acoustical Physics & Application to Instrument Design</strong>Quantitatively and mathematically evaluating the physical characteristics (vibration modes, damping rates, frequency response) of sounds emitted by percussion instruments like snare drums via experiments and simulations (Physical Acoustic Modeling). Feeding these findings back directly into instrument design.",\
+        contact_title: "Contact & Collaboration",\
+        contact_desc: "If you have any questions regarding my research, suggestions, or interest in my musical activities, please feel free to contact me via SNS below."\
+    \}\
+\};\
+\
+const interests = \{\
+    ja: ["\uc0\u25968 \u29702 \u38899 \u27005 \u23398 ", "\u25968 \u23398 ", "\u38899 \u27005 ", "\u29289 \u29702 \u23398 ", "\u12450 \u12523 \u12468 \u12522 \u12474 \u12511 \u12483 \u12463 \u20316 \u26354 ", "AI", "\u12503 \u12525 \u12464 \u12521 \u12511 \u12531 \u12464 ", "\u32117 \u30011 ", "\u12487 \u12470 \u12452 \u12531 ", "\u20467 \u21477 ", "\u12523 \u12540 \u12499 \u12483 \u12463 \u12461 \u12517 \u12540 \u12502 ", "\u12462 \u12501 \u12486 \u12483 \u12489 \u25945 \u32946 ", "STEM\u25945 \u32946 ", "\u27231 \u26800 \u23398 \u32722 ", "\u27005 \u22120 \u35373 \u35336 "],\
+    en: ["Mathematical Musicology", "Mathematics", "Music", "Physics", "Algorithmic Composition", "AI", "Programming", "Painting", "Design", "Haiku", "Rubik's Cube", "Gifted Education", "STEM Education", "Machine Learning", "Instrument Design"]\
+\};\
+\
+let currentLang = 'ja';\
+\
+const langBtn = document.getElementById('lang-toggle');\
+const tagsContainer = document.getElementById('interests-tags');\
+\
+function updateContent() \{\
+    // \uc0\u12508 \u12479 \u12531 \u12398 \u12486 \u12461 \u12473 \u12488 \u26356 \u26032 \
+    langBtn.textContent = currentLang === 'ja' ? 'English' : '\uc0\u26085 \u26412 \u35486 ';\
+\
+    // \uc0\u12486 \u12461 \u12473 \u12488 \u12467 \u12531 \u12486 \u12531 \u12484 \u12398 \u26356 \u26032 \
+    document.querySelectorAll('[data-key]').forEach(elem => \{\
+        const key = elem.getAttribute('data-key');\
+        if (content[currentLang][key]) \{\
+            elem.innerHTML = content[currentLang][key]; // HTML\uc0\u12479 \u12464 \u12434 \u21547 \u12416 \u12383 \u12417 innerHTML\
+        \}\
+    \});\
+\
+    // \uc0\u33288 \u21619 \u12479 \u12464 \u12398 \u26356 \u26032 \
+    tagsContainer.innerHTML = '';\
+    interests[currentLang].forEach(tag => \{\
+        const span = document.createElement('span');\
+        span.className = 'tag';\
+        span.textContent = tag;\
+        tagsContainer.appendChild(span);\
+    \});\
+\}\
+\
+langBtn.addEventListener('click', () => \{\
+    currentLang = currentLang === 'ja' ? 'en' : 'ja';\
+    updateContent();\
+\});\
+\
+// \uc0\u21021 \u26399 \u12525 \u12540 \u12489 \
+updateContent();}
