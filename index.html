@@ -3,97 +3,391 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryunosuke Takada | 高田 龍之介</title>
-    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <title>Ryunosuke Takada</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* --- Base Design & Typography --- */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        a:hover {
+            opacity: 0.6;
+        }
+
+        /* --- Layout --- */
+        .container {
+            max-width: 720px; /* 読みやすい幅に制限 */
+            margin: 0 auto;
+            padding: 60px 20px 100px;
+        }
+
+        /* --- Header --- */
+        header {
+            margin-bottom: 60px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 10px;
+        }
+        .social-links {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        .social-links a {
+            margin-right: 15px;
+            color: #555;
+        }
+
+        /* --- Sections --- */
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            letter-spacing: 0.05em;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .list-title {
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        /* --- Language Switcher Button --- */
+        .lang-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .lang-btn {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.3s;
+            letter-spacing: 0.05em;
+        }
+        .lang-btn:hover {
+            background: #555;
+        }
+
+        /* --- Visibility Utility --- */
+        .hidden {
+            display: none;
+        }
+
+        /* --- Mobile Adjustment --- */
+        @media (max-width: 600px) {
+            .container {
+                padding-top: 40px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 <body>
 
-    <button id="lang-toggle" class="lang-btn">English</button>
-
-    <div class="wrapper">
-        <header>
-            
-            
-            <div class="profile-img-container">
-                <img src="profile.jpg" alt="Ryunosuke Takada" class="profile-img" onerror="this.src='https://via.placeholder.com/210x280?text=Profile+Image'">
-            </div>
-
-            <p class="sidebar-caption" data-key="sidebar_caption">I'm interested in Mathematical Musicology.</p>
-
-            <p class="view-link"><a href="https://www.instagram.com/ryu_percussion/" target="_blank">View My Instagram Profile</a></p>
-            
-            <p class="mail-link"><a href="mailto:ryu.percussion.contact@gmail.com"><i class="fas fa-envelope"></i> Contact Mail</a></p>
-
-            <div class="footer-note">
-                <p>Hosted on GitHub Pages — Theme by orderedlist</p>
-            </div>
-        </header>
-
-        <section>
-            <h1 class="main-name">Ryunosuke Takada </h1>
-
-            <h2 data-key="about_title">About Me</h2>
-            <ul class="info-list">
-                <li data-key="about_text"></li>
-                <li><strong data-key="age_label">年齢:</strong> <span data-key="age_val">18歳</span></li>
-                <li><strong data-key="dept_label">学部:</strong> <span data-key="dept_val">経済学部1年</span></li>
-                <li><strong data-key="interest_label">興味:</strong> <span id="interests-list"></span></li>
-                <li><strong data-key="theme_label">研究テーマ:</strong> <span data-key="theme_val"></span></li>
-            </ul>
-
-            <h2 data-key="career_title">Career</h2>
-            <ul class="career-list">
-                <li><strong>2025年</strong> <span data-key="career_1">RYU Percussion CEO</span></li>
-                <li><strong>2026年</strong> <span data-key="career_2">steAm Inc.</span></li>
-            </ul>
-
-            <h2 data-key="skills_title">Skills</h2>
-            <div class="skill-group">
-                <h3 data-key="skill_math_title">◆ 数学 & 物理学</h3>
-                <p data-key="skill_math_desc"></p>
-                
-                <h3 data-key="skill_music_title">◆ 音楽 & 作曲</h3>
-                <p data-key="skill_music_desc"></p>
-
-                <h3 data-key="skill_prog_title">◆ プログラミング & AI</h3>
-                <p data-key="skill_prog_desc"></p>
-
-                <h3 data-key="skill_design_title">◆ デザイン & コミュニケーション</h3>
-                <p data-key="skill_design_desc"></p>
-
-                <h3 data-key="skill_lang_title">◆ 言語</h3>
-                <p data-key="skill_lang_desc"></p>
-            </div>
-
-            <h2 data-key="projects_title">Projects</h2>
-            <div class="project-item">
-                <h3 data-key="proj_inst_title">◾️楽器デザイン</h3>
-                <p data-key="proj_inst_desc"></p>
-            </div>
-            <div class="project-item">
-                <h3 data-key="proj_paper_title">◾️研究論文 & 執筆</h3>
-                <p data-key="proj_paper_desc"></p>
-            </div>
-            <div class="project-item">
-                <h3 data-key="proj_dev_title">◾️開発</h3>
-                <p data-key="proj_dev_desc"></p>
-            </div>
-
-            <h2 data-key="research_title">Core Research Themes</h2>
-            <div class="research-item">
-                <p data-key="res_1"></p>
-                <p data-key="res_2"></p>
-                <p data-key="res_3"></p>
-            </div>
-
-            <h2 data-key="contact_title">Contact & Collaboration</h2>
-            <p data-key="contact_desc"></p>
-            <p><a href="https://www.instagram.com/ryu_percussion/" target="_blank">Instagram (@ryu_percussion)</a></p>
-        </section>
+    <div class="lang-switch">
+        <button onclick="toggleLanguage()" id="langBtn" class="lang-btn">English</button>
     </div>
 
-    <script src="script.js"></script>
+    <div class="container">
+        
+        <header>
+            <h1>Ryunosuke Takada</h1>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ryu_percussion/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </div>
+        </header>
+
+        <div id="content-jp">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    2007年生まれ。幼少期より数学及び音楽（ピアノ、打楽器、作編曲）に強い興味を抱き、現在は両者の関係性に着目し、数的アルゴリズムによる作曲や、数学への聴覚的アプローチの導入など、両者を統合したインタラクティブな表現方法を追求しています。また、自身の研究知見を楽器設計に応用し、デザイン、ブランディング、演奏までを一貫して行っています（イタリア国際打楽器コンクール最高位）。そして、自身の経験から日本におけるギフテッド教育およびSTEAM教育にも注目し、学問や芸術の枠にとらわれない多様で創造的な教育像を模索しています。関心領域は、物理学、トポロジー、楽器デザイン、AI、プログラミングから、油絵、デザイン、俳句、ルービックキューブなど多岐にわたります。学問・芸術・ものづくりの境界を越え、数理的思考と感性の調和から、新たな価値と表現のかたちを創造することが興味の中心です。
+                </p>
+                <ul>
+                    <li><span class="list-title">年齢:</span>18歳</li>
+                    <li><span class="list-title">学部:</span>経済学部1年</li>
+                    <li><span class="list-title">興味:</span>数理音楽学 / 数学 / 音楽 / 物理学 / アルゴリズミック作曲 / AI / プログラミング / 絵画 / デザイン / 俳句 / ルービックキューブ / ギフテッド教育 / STEM教育 / 機械学習 / 楽器設計</li>
+                    <li><span class="list-title">研究テーマ:</span>数理音楽学 / アルゴリズミック作曲 / 音響物理学 / 解析的数論 / AI・機械学習 / ソニフィケーション / ζ関数 / 素数 / STEM・ギフテッド教育</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Career</h2>
+                <ul>
+                    <li>2025年 RYU Percussion 代表</li>
+                    <li>2026年 steAm Inc.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                
+                <h3>◾️数学 & 物理学 (Mathematics & Physics)</h3>
+                <ul>
+                    <li>研究基盤: 複素解析、トポロジー、解析的数論（ζ関数）</li>
+                    <li>応用モデル: 確率過程（マルコフ連鎖、点過程）、群論、非ユークリッド幾何学</li>
+                    <li>物理・音響: 音響物理学、振動・波動論、リズム生成の数理解析</li>
+                </ul>
+
+                <h3>◾️音楽 & 作曲 (Music & Composition)</h3>
+                <ul>
+                    <li>演奏: ピアノ、スネアドラムソロ、パーカッション</li>
+                    <li>理論・作曲: 数理的作曲（確率モデル・マルコフ連鎖・クセナキス的手法・音響的多元構造など）、編曲、サウンドデザイン、ポリリズム</li>
+                    <li>応用: 楽器設計、音響解析、物理音響モデリング、音響工学</li>
+                </ul>
+
+                <h3>◾️プログラミング & AI (Programming & AI)</h3>
+                <ul>
+                    <li>使用言語: Python</li>
+                    <li>信号処理: デジタル信号処理 (DSP)、高速フーリエ変換 (FFT)、パワースペクトル密度 (PSD)、ウェーブレット変換、ゼロ点分布解析</li>
+                    <li>AI・機械学習: 深層学習（RNN, VAE, GANs）による作曲モデルの構築</li>
+                    <li>システム開発: 確率的作曲システム、変拍子生成アルゴリズム、音響データ解析ツールの実装</li>
+                </ul>
+
+                <h3>◾️デザイン & コミュニケーション (Design & Communication)</h3>
+                <ul>
+                    <li>ビジュアル: 油絵、グラフィックデザイン、数学的・音響的データのビジュアライゼーション</li>
+                    <li>応用: 楽器デザイン、音響インスタレーション</li>
+                </ul>
+
+                <h3>◾️言語 (Languages)</h3>
+                <ul>
+                    <li>ドイツ語、フランス語、英語、日本語、イタリア語、スペイン語</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                
+                <h3>◾️楽器デザイン (Instruments design)</h3>
+                <p><strong>RYU Percussion</strong><br>
+                概要: 音響物理学の知見に基づく楽器設計。設計、製作、演奏、ブランディング。<br>
+                主な設計: Snare Drum, Snare Stand, Percussion Stands, Percussion Mallets…</p>
+
+                <h3>◾️研究論文 & 執筆 (Publications & Writing)</h3>
+                <p><strong>[研究論文] リーマンゼータ零点の多角的ソニフィケーション：相補的音響表現による数論的構造の知覚的解析 (2025)</strong><br>
+                概要: ゼータ関数の零点をソニフィケーションし、その知覚的有効性を評価する試み。</p>
+                <p><strong>[研究論文] スネアドラムの構成要素がその音響特性に与える物理的影響の定量的評価 (2025)</strong><br>
+                概要: スネアドラムの主要要素がそのティンバーに与える影響を定量化。楽器設計理論の基盤。</p>
+
+                <h3>◾️開発 (Software & Systems)</h3>
+                <p><strong>Mathematical Composition System (2024)</strong><br>
+                概要: 確率過程（マルコフ連鎖等）及び統計的手法を用いたリズム・音響生成システム。<br>
+                実装: Pythonにて実装。</p>
+                <p><strong>音響信号処理の自動可視化ツール (内部ツール)</strong><br>
+                概要: FFT、PSD、ウェーブレット変換など、音響データ解析の結果をバッチ処理で自動可視化するツール。研究・開発効率の向上に貢献。</p>
+
+                <h3>◾️音楽活動、作品 (Art Works & Performances)</h3>
+                <p><strong>Snare Solo / Snare × Piano (Instagram)</strong><br>
+                概要: 自作スネアドラム（RYU Percussion）のソロ演奏および、スネアとピアノの演奏。</p>
+                <p><strong>Solo Works</strong><br>
+                概要: スネアドラムソロやスネアコンチェルトなど。数理的手法に基づく作曲など。</p>
+
+                <h3>◾️教育 (Education)</h3>
+                <p>数学、音楽、芸術、プログラミングなどさまざまな分野を横断する、統合的教育モデルを構想。STEM教育とギフテッド教育を融合させた多様で創造的な教育像を提案。</p>
+            </section>
+
+            <section>
+                <h2>Core Research Themes</h2>
+                <h3>◾️解析的数論のソニフィケーション (Sonification of Analytic Number Theory)</h3>
+                <p>リーマンゼータ関数の零点分布や素数分布といった数論的構造と、音響パラメータ（周波数、リズム、音色）との構造的対応を研究。ソニフィケーションによって、数理的概念と聴覚的情報を対応させ、数理構造の知覚に新たなアプローチを見出す。</p>
+
+                <h3>◾️アルゴリズミック作曲と数理モデル (Algorithmic Composition & Mathematical Models)</h3>
+                <p>クセナキス（Iannis Xenakis）の確率論的手法（Stochastic Music）、マルコフ連鎖、群論、非ユークリッド幾何学などの数理モデルを用いた作曲アルゴリズムを構築。ポリリズムとその知覚構造の対応。</p>
+
+                <h3>◾️音響物理学と楽器設計への応用 (Acoustical Physics & Application to Instrument Design)</h3>
+                <p>スネアドラム等の打楽器が発する音響の物理的特性（振動モード、減衰率、周波数特性）を、実験とシミュレーション（物理音響モデリング）によって定量的・数理的に評価。この知見を楽器設計に直接フィードバックし、音響特性を意図的にデザイン。</p>
+            </section>
+
+            <section>
+                <h2>Contact & Collaboration</h2>
+                <p>研究に関するご質問やご指摘、音楽活動などにご興味がございましたら、下記SNSよりお気軽にご連絡ください。<br>
+                Instagram (@ryu_percussion)</p>
+            </section>
+        </div>
+
+        <div id="content-en" class="hidden">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    Born in 2007. Since childhood, I have harbored a strong interest in both mathematics and music (piano, percussion, composition/arrangement). Currently, focusing on the relationship between these two fields, I pursue interactive modes of expression that integrate them—such as composition using numerical algorithms and the introduction of auditory approaches to mathematics. I also apply my research findings to instrument design, handling everything from design and branding to performance consistently (Top prize at the Italy International Percussion Competition). Furthermore, based on my own experiences, I focus on Gifted and STEAM education in Japan, exploring diverse and creative educational models that are not bound by the frameworks of academia or art. My areas of interest span Physics, Topology, Instrument Design, AI, Programming, Oil Painting, Design, Haiku, and Rubik's Cube. Crossing the boundaries of academia, art, and craftsmanship, my central interest lies in creating new values and forms of expression through the harmony of mathematical thinking and sensibility.
+                </p>
+                <ul>
+                    <li><span class="list-title">Age:</span>18</li>
+                    <li><span class="list-title">Department:</span>Faculty of Economics, 1st Year</li>
+                    <li><span class="list-title">Interests:</span>Mathematical Musicology / Mathematics / Music / Physics / Algorithmic Composition / AI / Programming / Painting / Design / Haiku / Rubik's Cube / Gifted Education / STEM Education / Machine Learning / Instrument Design</li>
+                    <li><span class="list-title">Research Themes:</span>Mathematical Musicology / Algorithmic Composition / Acoustical Physics / Analytic Number Theory / AI & ML / Sonification / Zeta Function / Prime Numbers / STEM & Gifted Education</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Career</h2>
+                <ul>
+                    <li>2025 RYU Percussion Representative</li>
+                    <li>2026 steAm Inc.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                
+                <h3>◾️Mathematics & Physics</h3>
+                <ul>
+                    <li>Research Basis: Complex Analysis, Topology, Analytic Number Theory (Zeta Function)</li>
+                    <li>Applied Models: Stochastic Processes (Markov Chains, Point Processes), Group Theory, Non-Euclidean Geometry</li>
+                    <li>Physics & Acoustics: Acoustical Physics, Vibration & Wave Theory, Mathematical Analysis of Rhythm Generation</li>
+                </ul>
+
+                <h3>◾️Music & Composition</h3>
+                <ul>
+                    <li>Performance: Piano, Snare Drum Solo, Percussion</li>
+                    <li>Theory & Composition: Mathematical Composition (Stochastic Models, Markov Chains, Xenakian Methods, Acoustic Multi-dimensional Structures, etc.), Arrangement, Sound Design, Polyrhythm</li>
+                    <li>Application: Instrument Design, Acoustic Analysis, Physical Acoustic Modeling, Acoustical Engineering</li>
+                </ul>
+
+                <h3>◾️Programming & AI</h3>
+                <ul>
+                    <li>Languages: Python</li>
+                    <li>Signal Processing: Digital Signal Processing (DSP), Fast Fourier Transform (FFT), Power Spectral Density (PSD), Wavelet Transform, Zero Distribution Analysis</li>
+                    <li>AI & Machine Learning: Construction of Composition Models using Deep Learning (RNN, VAE, GANs)</li>
+                    <li>System Development: Stochastic Composition Systems, Odd Meter Generation Algorithms, Implementation of Acoustic Data Analysis Tools</li>
+                </ul>
+
+                <h3>◾️Design & Communication</h3>
+                <ul>
+                    <li>Visual: Oil Painting, Graphic Design, Visualization of Mathematical & Acoustic Data</li>
+                    <li>Application: Instrument Design, Sound Installation</li>
+                </ul>
+
+                <h3>◾️Languages</h3>
+                <ul>
+                    <li>German, French, English, Japanese, Italian, Spanish</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                
+                <h3>◾️Instrument Design</h3>
+                <p><strong>RYU Percussion</strong><br>
+                Overview: Instrument design based on findings in acoustical physics. Covering design, production, performance, and branding.<br>
+                Main Designs: Snare Drum, Snare Stand, Percussion Stands, Percussion Mallets...</p>
+
+                <h3>◾️Publications & Writing</h3>
+                <p><strong>[Research Paper] Multilateral Sonification of Riemann Zeta Zeros: Perceptual Analysis of Number-Theoretic Structures via Complementary Acoustic Representations (2025)</strong><br>
+                Overview: An attempt to sonify the zeros of the Zeta function and evaluate its perceptual effectiveness.</p>
+                <p><strong>[Research Paper] Quantitative Evaluation of the Physical Influence of Snare Drum Components on Acoustic Characteristics (2025)</strong><br>
+                Overview: Quantifying the impact of major snare drum elements on its timbre. Foundation for instrument design theory.</p>
+
+                <h3>◾️Software & Systems</h3>
+                <p><strong>Mathematical Composition System (2024)</strong><br>
+                Overview: Rhythm and sound generation system using stochastic processes (Markov chains, etc.) and statistical methods.<br>
+                Implementation: Python.</p>
+                <p><strong>Automated Acoustic Signal Processing Visualization Tool (Internal Tool)</strong><br>
+                Overview: A tool that automatically visualizes acoustic data analysis results (FFT, PSD, Wavelet Transform, etc.) via batch processing. Contributes to improved research and development efficiency.</p>
+
+                <h3>◾️Art Works & Performances</h3>
+                <p><strong>Snare Solo / Snare × Piano (Instagram)</strong><br>
+                Overview: Solo performances with self-made snare drums (RYU Percussion) and Snare & Piano performances.</p>
+                <p><strong>Solo Works</strong><br>
+                Overview: Snare drum concertos, snare solos, etc. Composition based on mathematical methods.</p>
+
+                <h3>◾️Education</h3>
+                <p>Conceived an integrated educational model crossing various fields such as mathematics, music, art, and programming. Proposing a diverse and creative image of education fusing STEM and Gifted education.</p>
+            </section>
+
+            <section>
+                <h2>Core Research Themes</h2>
+                <h3>◾️Sonification of Analytic Number Theory</h3>
+                <p>Researching the structural correspondence between number-theoretic structures (such as the distribution of zeros of the Riemann Zeta function and prime number distribution) and acoustic parameters (frequency, rhythm, timbre). Through sonification, I map mathematical concepts to auditory information, finding new approaches to perceiving mathematical structures.</p>
+
+                <h3>◾️Algorithmic Composition & Mathematical Models</h3>
+                <p>Building composition algorithms using mathematical models such as Iannis Xenakis's Stochastic Music methods, Markov chains, Group theory, and Non-Euclidean geometry. Correspondence between polyrhythm and its perceptual structure.</p>
+
+                <h3>◾️Acoustical Physics & Application to Instrument Design</h3>
+                <p>Quantitatively and mathematically evaluating the physical characteristics (vibration modes, decay rates, frequency response) of sounds emitted by percussion instruments like snare drums through experiments and simulations (physical acoustic modeling). These findings are fed back directly into instrument design to intentionally design acoustic characteristics.</p>
+            </section>
+
+            <section>
+                <h2>Contact & Collaboration</h2>
+                <p>If you have any questions regarding my research, suggestions, or interest in my musical activities, please feel free to contact me via the SNS below.<br>
+                Instagram (@ryu_percussion)</p>
+            </section>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleLanguage() {
+            const jpContent = document.getElementById('content-jp');
+            const enContent = document.getElementById('content-en');
+            const btn = document.getElementById('langBtn');
+
+            if (jpContent.classList.contains('hidden')) {
+                // Switch to Japanese
+                jpContent.classList.remove('hidden');
+                enContent.classList.add('hidden');
+                btn.textContent = 'English';
+                document.documentElement.lang = 'ja';
+            } else {
+                // Switch to English
+                jpContent.classList.add('hidden');
+                enContent.classList.remove('hidden');
+                btn.textContent = '日本語';
+                document.documentElement.lang = 'en';
+            }
+        }
+    </script>
 </body>
 </html>
